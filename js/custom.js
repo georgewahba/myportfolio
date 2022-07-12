@@ -30,6 +30,10 @@ function reply_click(clicked_id)
             if (className.includes('text-info')) {
                 text.classList.remove('text-info');
             }
+
+            if (className.includes('text-dark')) {
+                text.classList.remove('text-dark');
+            }
         }
 
         text.classList.add('text-' + temp);
@@ -58,6 +62,10 @@ function reply_click(clicked_id)
             if (className.includes('bg-info')) {
                 bg.classList.remove('bg-info');
             }
+
+            if (className.includes('bg-dark')) {
+                bg.classList.remove('bg-dark');
+            }
         }
         bg.classList.add('bg-' + temp);
     }
@@ -84,6 +92,10 @@ function reply_click(clicked_id)
 
             if (className.includes('border-info')) {
                 border.classList.remove('border-info');
+            }
+
+            if (className.includes('border-dark')) {
+                border.classList.remove('border-dark');
             }
         }
 
