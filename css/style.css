@@ -182,7 +182,7 @@ h1,h2,h3,h4,h5,h6,p{
   width: 316px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #custom-button {
     /* center */
     left: calc(50% - 158px);
@@ -190,8 +190,20 @@ h1,h2,h3,h4,h5,h6,p{
 
   }
   #buttons {
-    left: calc(38.5% - 158px);
-    position: relative;
+    text-align: center;
   }
+
+  #buttons .d-flex {
+    justify-content: center;
+  }
+
+  .rounded-circle {
+    width: 100px;
+    align-self: center;
+  }
+
+  .col-lg-6 {
+    margin-left: 0;
+}
 }
 
