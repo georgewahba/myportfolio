@@ -182,3 +182,16 @@ h1,h2,h3,h4,h5,h6,p{
   width: 316px;
 }
 
+@media (max-width: 600px) {
+  #custom-button {
+    /* center */
+    left: calc(50% - 158px);
+    position: relative;
+
+  }
+  #buttons {
+    left: calc(38.5% - 158px);
+    position: relative;
+  }
+}
+
